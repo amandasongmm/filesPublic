@@ -20,3 +20,4 @@ for curItr = 1 : triplet_num
 end
 fprintf('Done.\n');
 save('triplet_10K_list.mat','tri_tenK_list','repCount_array');
+
