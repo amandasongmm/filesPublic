@@ -14,18 +14,3 @@ end
 
 
 
-% for curR = 1 : repTimes%
-%     for curG = 1 : groupNum
-%         % read one set of trials
-%         startInd = (curR-1)*groupNum + curG;
-%         douTemplate = squeeze(douArray1(startInd, :, :));
-%         % write it into txt file
-%         douName = sprintf('../filesPublic/sampleMethod1/sampleMethod1_set%drep%d.txt',curG, curR);
-%         fid = fopen(douName, 'w');
-%         for curItr = 1 : subsetNum
-%             str = sprintf('F%d.jpg,F%d.jpg',douTemplate(curItr, 1), douTemplate(curItr, 2));
-%             fprintf(fid,'%s\n',str);
-%         end
-%         fclose(fid);
-%     end
-% end
